@@ -1,5 +1,5 @@
 
-**"Website demo content is provided by Sky of Pankake Media. You can find them on twitter here: https://x.com/PankakeMusic42"**
+**Website demo content is provided by Sky of Pankake Media. You can find them on twitter here: https://x.com/PankakeMusic42**
 
 
 # create-svelte
