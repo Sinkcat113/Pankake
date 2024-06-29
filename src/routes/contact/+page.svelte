@@ -13,7 +13,7 @@
         <a href="https://twitter.com/PankakeMusic42"><img class="link" src={twitter} alt=""></a>
         <a href="https://www.instagram.com/pankake_42/"><img class="link" src={instagram} alt=""></a>
     </div>
-    <p style="text-align: center;">Email: <a href="PankakeMedia@outlook.com">PankakeMedia@outlook.com</a></p>
+    <p style="text-align: center;">Email: <u>PankakeMedia@outlook.com</u></p>
 </main>
 
 <style>
