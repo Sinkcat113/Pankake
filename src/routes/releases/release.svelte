@@ -75,6 +75,28 @@
         margin-top: 12px;
     }
 
+    @media (max-width: 600px) {
+        .cover {
+            width: 80px;
+            height: 80px;
+        }
+
+        .wrapper {
+            margin: 0;
+            margin-right: 3px;
+            margin-left: 3px;
+        }
+
+        h3 {
+            font-size: 14px;
+        }
+
+        p {
+            font-size: 13px;
+            width: 39px;
+        }
+    }
+
     @keyframes slideUp {
         from {
             margin-top: 20px;

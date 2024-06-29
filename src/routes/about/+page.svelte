@@ -18,6 +18,7 @@
         <h1>Bio</h1>
         <p style="color: white;">Pankake is an electronic music artist, sound designer, audio engineer, and content creator based in the Southwestern US. Their music features an energetic and heart-pumping sound. Pankake has been producing since late 2014, where they started messing around with different DAWs (Digital Audio Workstations) including FL Studio, ProTools, and REAPER. Having been inspired by video games, rhythm games, and anime; as well as artists such as Camellia, Snail’s House, DJ-Genki, D-D-Dice, RUQOA, Yunomi, MYLK, and others, the music and sounds they’ve crafted over the years has captured the hearts of listeners the world over.</p>
     </div>
+
 </main>
 
 <style>
@@ -50,6 +51,7 @@
         margin-left: auto;
         margin-right: auto;
         width: 800px;
+        margin-bottom: 70px;
     }
 
     h1 {
@@ -71,6 +73,31 @@
         width: 190px;
         height: 190px;
         border-radius: 500px;
+    }
+
+    
+    @media (max-width: 600px) {
+        .content {
+            width: 300px;
+            display: block;
+            padding-bottom: 30px;
+            margin-top: 110px;
+            animation-name: slideUpFade;
+        }
+
+        .bio {
+            width: 300px;
+        }
+        @keyframes slideUpFade {
+            from {
+                margin-top: 130px;
+                opacity: 0%;
+            }
+
+            to {
+                margin-top: 110px;
+            }
+        }
     }
 
     @keyframes slideUp {

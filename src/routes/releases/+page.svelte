@@ -139,6 +139,42 @@
         animation-duration: 0.90s;
     }
 
+    @media (max-width: 600px) {
+        .content {
+            margin-top: 140px;
+            animation-name: slideUpFade;
+            width: 300px;
+        }
+
+        .releases {
+            width: 320px;
+        }
+
+        .releasies {
+            margin-top: 40px;
+            animation-name: slideUpFade;
+        }
+
+        h1 {
+            margin-top: 140px;
+        }
+
+        .usageContent {
+            width: 300px;
+        }
+
+        @keyframes slideUpFade {
+            from {
+                margin-top: 160px;
+                opacity: 0%;
+            }
+
+            to {
+                margin-top: 140px;
+            }
+        }  
+    }
+
     @keyframes slideUp {
         from {
             margin-top: 220px;

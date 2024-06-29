@@ -13,6 +13,7 @@
 </script>
 
 <main>
+    <img class="backgroundSky" src={sky} alt="">
     <div class="content">
         <img class="sky" src={sky} alt="">
         <div class="text">
@@ -83,6 +84,18 @@
         background-image: linear-gradient(110deg,  transparent, #7cf1c6);
     }
 
+    .backgroundSky {
+        margin-top: 10vh;
+        display: block;
+        height: 300px;
+        filter: drop-shadow(100px -30px 200px #00be78);
+        animation-name: slideFade;
+        animation-duration: 0.80s;
+        border-radius: 500px;
+        background-image: linear-gradient(110deg,  transparent, #7cf1c6);
+        display: none;
+    }
+
     .content {
         display: flex;
         margin-left: auto;
@@ -101,6 +114,52 @@
         font-weight: 800;
         color: rgba(240, 248, 255, 0.589);
 
+    }
+
+    @media (max-width: 600px) {
+
+        h1 {
+            margin: 0;
+            animation-name: none;
+        }
+
+        p {
+            display: block;
+            width: inherit;
+            text-align: center;
+            animation-name: none;
+        }
+
+        .sky {
+            margin-top: 120px;
+            animation-name: skySlide;
+        }
+
+        .content {
+            display: block;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cards {
+            display: grid;
+            width: 300px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        @keyframes skySlide {
+            from {
+                margin-top: 140px;
+                opacity: 0%;
+                filter: none;
+            }
+
+            to {
+                margin-top: 120px;
+            }
+        }
     }
 
     @keyframes slideFade {

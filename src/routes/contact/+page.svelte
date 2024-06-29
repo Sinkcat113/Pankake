@@ -65,6 +65,12 @@
         color: #aaffe0;
     }
 
+    @media (max-width: 600px) {
+        .content {
+            width: 300px;
+        }
+    }
+
     @keyframes slideUp {
         from {
             margin-top: 220px;

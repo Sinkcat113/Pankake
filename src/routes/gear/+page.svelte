@@ -99,10 +99,10 @@
             </div>
         </div>  
         <br>
-        <br>
-        <a href="https://docs.google.com/spreadsheets/d/1zXoepbBNm8Q0GbC-5BVD4VPJv9Y0AhkBXIztMHvtNGI/edit?usp=sharing"><button class="freeGoodies">Free Goodies!</button></a>
-        
+        <br> 
     </div>
+    <a href="https://docs.google.com/spreadsheets/d/1zXoepbBNm8Q0GbC-5BVD4VPJv9Y0AhkBXIztMHvtNGI/edit?usp=sharing"><button class="freeGoodies">Free Goodies!</button></a>
+       
 </main>
 
 <style>
@@ -180,6 +180,53 @@
 
     h3 {
         margin: 0;
+    }
+
+    @media (max-width: 600px) {
+        .content {
+            width: 300px;
+            margin: 10px;
+            margin-top: 140px;
+        }
+
+        .items {
+            width: 300px;
+            display: block;
+        }
+
+        h1 {
+            margin: 0;
+            margin-bottom: 12px;
+            animation-name: slideUpFade;
+        }
+
+        .hardware {
+            margin: 0;
+        }
+
+        .software {
+            margin: 0;
+            margin-top: 20px;
+        }
+
+        .freeGoodies {
+            font-size: 15px;
+            margin: 0;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+        }
+
+        @keyframes slideUpFade {
+            from {
+                margin-top: 160px;
+                opacity: 0%;
+            }
+
+            to {
+                margin-top: 140px;
+            }
+        }
     }
 
     @keyframes slideUp {

@@ -61,4 +61,27 @@
         font-family: "DM Sans", sans-serif;
         color: rgba(255, 255, 255, 0.767);    
     }
+
+    @media (max-width: 600px) {
+        .container {
+            margin: 0;
+            display: grid;
+            width: 100%;
+            display: grid;
+            border-radius: 4px;
+        }
+
+        p {
+            margin: 0;
+            margin-top: 12px;
+        }
+
+        .wrapper {
+            display: block;
+            padding: 12px;
+            border-radius: 15px;
+            display: grid;
+            padding-top: 0px;
+        }
+    }
 </style>
